@@ -4,12 +4,10 @@
 
 #### Overview
 
-This is a remote control simulation.
-...
-#### Concepts
+* This is a remote control simulation.
 
-loops
-...
+#### Concepts
+ loops
 #### Technologies Used
 
 #### Lessons Learned
