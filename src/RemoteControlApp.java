@@ -2,20 +2,14 @@ import java.util.Scanner;
 public class RemoteControlApp {
 
 	public static void main(String[] args) {
-		initialMessage();
 		Scanner keyboard = new Scanner(System.in);
 		String choice = "";
 		
 		do {
+			initialMessage();
 			choice = keyboard.next();
-			switch(choice) {
-				
-				
-				
 			
-				
-				
-			}
+
 		} while (!choice.equalsIgnoreCase("on"));
 		
 		
