@@ -29,9 +29,51 @@ public class RemoteControlApp {
 					pressButton();
 					enterNumber();
 					break;
+				case "2":
+					pressButton();
+					enterNumber();
+					break;
+				case "3":
+					pressButton();
+					enterNumber();
+					break;
+				case "4":
+					pressButton();
+					enterNumber();
+					break;
+				case "5":
+					pressButton();
+					enterNumber();
+					break;
+				case "6":
+					pressButton();
+					enterNumber();
+					break;
+				case "7":
+					pressButton();
+					enterNumber();
+					break;
+				case "8":
+					pressButton();
+					enterNumber();
+					break;
+				case "9":
+					pressButton();
+					enterNumber();
+					break;
+				case "off":
+				case "Off":
+				case "OFF":
+					turnOff();
+					break;
+				default:
+					System.out.println("Command Not Recognized! ");
+					enterNumber();
+					break;
 			}
-		} while (!num.equalsIgnoreCase("10"));
+		} while (!num.equalsIgnoreCase("off"));
 		
+		keyboard.close();
 		
 		}
 
@@ -48,7 +90,9 @@ public class RemoteControlApp {
 	}
 	public static void enterNumber() {
 		System.out.println("Please enter a button number: ");
-		
+	}
+	public static void turnOff() {
+		System.out.println("Turning Off...");
 	}
 
 }
