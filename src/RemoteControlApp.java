@@ -11,11 +11,9 @@ public class RemoteControlApp {
 			
 
 		} while (!choice.equalsIgnoreCase("on"));
-		
-		
-		
-	
+		turnOn();
 		}
+	
 	public static void initialMessage() {
 		System.out.println("To begin, turn on the remote control.");
 	}
